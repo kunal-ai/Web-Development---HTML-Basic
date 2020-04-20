@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tribute Page</title>
+     <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Hello</h1>
+    <div id="root"></div>
+    <script src="../src/index.js" type="text/jsx"></script>
+  </body>
+</html>
+
+This is the basic HTML page structure, The web page will have a title called Tribute Page, the style sheet is linked to styles.css,
+the page will have a heading Hello
