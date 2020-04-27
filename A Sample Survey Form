@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A Sample survey form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>A SAMPLE SURVEY FORM</h1>
+    <div class="page1">
+     <p>
+        Please fill up the form for subscribing to our services
+       </p>
+       <form class="" action="index.html" method="post">
+         <label for="name">Name:</label>
+         <input type="text" name="name" id="name" /><br /><br />
+         <label for="email">Email:</label>
+         <input type="email" name="email" id="email" /><br /><br />
+         <label for="age">Age:</label>
+         <input type="number" name="age" id="age" min="5" max="99" /><br /><br />
+         <label for="occupation">Which of the following describes your occupation:</label>
+         <select id="occupation" name="Occupation">
+           <option value="Student">Student</option>
+           <option value="Working">Working</option>
+           <option value="Retired">Retired</option>
+          </select><br/><br/>
+
+         <label for="YesNo">How likely is that you are going to recommend our services? :</label>
+        <ul>
+         <li>
+           <label for="Yes">Yes :</label>
+           <input type="radio" name="Yes" value="Yes">
+         </li>
+         <li>
+           <label for="No">No :</label>
+           <input type="radio" name="No" value="No">
+         </li>
+         <li>
+           <label for="Maybe">May be:</label>
+           <input type="radio" name="May be" value="May be">
+         </li>
+       </ul>
+
+          <label for="scope">Where should we improve? :</label>
+          <ul>
+           <li>
+             <label for="scope">Design? :</label>
+           <input type="checkbox" id="scope1" value="Design" />
+        </li>
+        <li>
+          <label for="scope">Engineering? :</label>
+          <input type="checkbox" id="scope2" value="Engineering" />
+        </li>
+        <li>
+       <label for="scope">Content? :</label>
+       <input type="checkbox" id="scope1" value="Content" />
+       </li>
+       </ul>
+       </form>
+    </div>
+
+  </body>
+</html>
+
+CSS
+-------------------------------------
+body {
+  background-color: #588da8;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.page1 {
+  background-color: #f7f7f7;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-top: 30px;
+}
