@@ -1,3 +1,3 @@
 # Web-Development-HTML-Basic
 
-To understand the basics of HTML page designing.
+To understand the basics of webpage page designing.
